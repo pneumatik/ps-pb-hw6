@@ -2,10 +2,6 @@ fib1 = 1
 fib2 = 1
 fib_odd = 0
 fib_sum = 0
-
-# n = input("Номер элемента ряда Фибоначчи: ")
-# n = int(n)
-
 i = 0
 
 while fib_sum + fib1 <= 10000000:
