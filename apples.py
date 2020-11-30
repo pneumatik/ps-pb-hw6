@@ -1,4 +1,10 @@
 def plural_form(number, form1, form2, form3):
+""" Вывод множественной формы числительных.
+:param number: числительное
+:form1: Именительный падеж
+:form2: Родительный падеж
+:form3: Множественный родительный падеж
+"""
     q = number
     if int(q)%100 == 11:
         print(f"{number} {form3}")
@@ -9,6 +15,8 @@ def plural_form(number, form1, form2, form3):
     else:
         print(f"{number} {form3}")
     
-q = input('введите количество яблок: ')
+
+q = input('введите количество: ')
 
 plural_form(int(q), 'яблоко', 'яблока', 'яблок')
+plural_form(int(q), 'студент', 'студента', 'студентов')
